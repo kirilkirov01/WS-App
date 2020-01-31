@@ -1,0 +1,60 @@
+.trklass td{
+  font-family: sans-serif;
+}
+.timeSpanActive{
+  color:#e14eca;
+  background-color:#404040;
+  }
+h5.card-category {
+    color: #9A9A9A;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+.dropbtn {
+  background-color: #ff33cc;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ff1ac6;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.show {display: block;}
+
+.dropdown:hover .dropbtn { background-color: coral;
+  border: none;
+  color: white;
+  text-align: center;
+  opacity: 0.6;
+  transition: 1s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;}
